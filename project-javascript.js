@@ -59,13 +59,13 @@
     var arg = arguments[0];
     if (!arg || arg.indexOf('Optimizely')!=0) return;
     arg = arg.substr('Optimizely / '.length);
-    (/Optimizely \/ API \/ Tracking/).test(arg) &&
+    (/API \/ Tracking/).test(arg) &&
       window.alertify.success(arg);
-    (/Optimizely \/ Tracker \/ Tracking/).test(arg) &&
+    (/Tracker \/ Tracking/).test(arg) &&
       window.alertify.success(arg);
-    (/Optimizely \/ Evaluator \/ Bound event/).test(arg) &&
+    (/Evaluator \/ Bound event/).test(arg) &&
       window.alertify.error(arg);
-    (/Optimizely \/ API \/ Called/).test(arg) &&
+    (/API \/ Called/).test(arg) &&
       window.alertify.error(arg);
   }
 
