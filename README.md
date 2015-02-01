@@ -2,4 +2,4 @@
 
 ## Logger.js
 
-![Logger Js](http://i.imgur.com/JkhJOih.gifv)
+![Logger Js](http://i.imgur.com/JkhJOih.gif)
