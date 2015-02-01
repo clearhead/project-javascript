@@ -1,4 +1,4 @@
-# project-javascript
+# project-javascripts
 
 ## Logger.js
 
