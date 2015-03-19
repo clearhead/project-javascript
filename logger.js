@@ -1,3 +1,6 @@
+
+// NOTE: 2015-03-19 moved to https://github.com/clearhead/optimizely-snippets
+
 /**
  * Overwrites and curries optimizely.push with alertify based on
  * querystring clearhead-debug=true>=0 || !!getCookie('chdebug');
